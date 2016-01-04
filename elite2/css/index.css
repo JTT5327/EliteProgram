@@ -1,0 +1,60 @@
+.carousel-inner{
+    height: 468px;
+}
+.bg{
+    height: 528px;
+    width: 100%;
+}
+.left-right{
+    line-height: 528px;
+    font-size: 80px;
+}
+.carousel-caption{
+    padding-bottom: 230px;
+}
+
+
+/*about*/
+.about{
+    height: 528px;
+    overflow: auto;
+    width: 100%;
+    background-color: #EAEAEA;
+}
+.image{
+    margin-top: 20px;
+}
+.text-muted {
+    color: #888;
+}
+p{
+    margin-top: 30px;
+}
+/*business*/
+.business{
+    height: 528px;
+    overflow: auto;
+    width: 100%;
+}
+/*contact*/
+.contact{
+    height: 528px;
+    overflow: auto;
+    width: 100%;
+    background-color: #EAEAEA;
+}
+/*footer*/
+.footer {
+    width: 100%;
+    height: 60px;
+    /*position: fixed;*/
+    bottom:0px;
+    background: #000000;
+    color: #777;
+    font-size: 12px;
+}
+.name{
+    height: 200px;
+    width: 200px;
+    margin-top: 30px;
+}

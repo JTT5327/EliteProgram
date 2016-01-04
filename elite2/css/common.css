@@ -1,0 +1,23 @@
+.logo{
+    width: 105px;
+    height: 50px;
+    margin-left: 50px;
+}
+.header{
+    margin-top: 500px;
+}
+.navbar-inverse{
+    background-color: rgba(0,0,0,1);
+}
+.items{
+    margin-left: 700px;
+}
+
+.title {
+    text-align: center;
+    font-weight: 300;
+    margin-top: 30px;
+}
+h4{
+    color: orange;
+}

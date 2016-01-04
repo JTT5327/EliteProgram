@@ -1,0 +1,25 @@
+.list{
+    position: fixed;
+}
+.content{
+    margin-top: 30px;
+}
+.charge{
+    display: block;
+    height: 50px;
+    background-color: white;
+    border: 1px solid #EAEAEA;
+    text-align: center;
+    line-height: 50px;
+    color: orange;
+    font-size: 20px;
+    width: 250px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: #EAEAEA;
+}
+.display{
+    height: 528px;
+    overflow: auto;
+}
