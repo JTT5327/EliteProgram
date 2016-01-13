@@ -12,11 +12,18 @@
 .carousel-caption{
     padding-bottom: 230px;
 }
-
-
+/*footer*/
+.indexFooter {
+    width: 100%;
+    height: 60px;
+    /*position: fixed;*/
+    bottom:0px;
+    background: #000000;
+    color: #777;
+    font-size: 12px;
+}
 /*about*/
 .about{
-    height: 528px;
     overflow: auto;
     width: 100%;
     background-color: #EAEAEA;
@@ -32,9 +39,10 @@ p{
 }
 /*business*/
 .business{
-    height: 528px;
     overflow: auto;
     width: 100%;
+    padding-bottom: 23px;
+    background-color: #EAEAEA;
 }
 /*contact*/
 .contact{
@@ -43,18 +51,27 @@ p{
     width: 100%;
     background-color: #EAEAEA;
 }
-/*footer*/
-.footer {
-    width: 100%;
-    height: 60px;
-    /*position: fixed;*/
-    bottom:0px;
-    background: #000000;
-    color: #777;
-    font-size: 12px;
-}
 .name{
     height: 200px;
     width: 200px;
     margin-top: 30px;
+}
+.highlight{  margin-top: 40px;  }
+.h-caption { text-align: center; }
+.h-caption i { display:block; font-size: 54px; color:#382526; margin-bottom:36px; }
+.h-caption h4 { color:#382526; font-size: 16px; font-weight: bold; margin-bottom:20px; }
+.h-body { }
+
+.fs-us{
+    padding: 10px;
+    padding-left: 35px;
+    border: 1px solid silver;
+    height:385px;
+    width: 100%;
+}
+.follow-me-icons a>i{
+    color:#382526;
+    font-size: 54px;
+    font-weight: bold;
+    margin-left: 10px;
 }

@@ -2,7 +2,10 @@
     position: fixed;
 }
 .content{
-    margin-top: 30px;
+    margin-top: 95px;
+}
+.navOL{
+    position: fixed;
 }
 .charge{
     display: block;
@@ -11,15 +14,31 @@
     border: 1px solid #EAEAEA;
     text-align: center;
     line-height: 50px;
-    color: orange;
+    color: #382526;
     font-size: 20px;
+    font-weight: bolder;
     width: 250px;
     text-decoration: none;
 }
 a:hover{
     background-color: #EAEAEA;
+    text-decoration:none;
 }
 .display{
-    height: 528px;
+   /* height: 528px;*/
     overflow: auto;
+    background-color: rgba(234,234,234,0.2);
+}
+.maxtitle{
+    color: #382526;
+    font-family: "Microsoft YaHei", "微软雅黑";
+}
+.minititle{
+    background-color:#EAEAEA;
+}
+.sptitle{
+    color: #382526 ;
+}
+.note{
+    color: #d93432;
 }
