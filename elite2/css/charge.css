@@ -27,14 +27,31 @@ a:hover{
 .display{
    /* height: 528px;*/
     overflow: auto;
-    background-color: rgba(234,234,234,0.2);
+    /*background-color: rgba(234,234,234,0.2);*/
+    font-size: 13px;
+    border: 1px solid #EAEAEA;
+}
+.display p{
+    text-indent: 2em;
+}
+.charge-block{
+    padding-top:10%;
+}
+.charge-price-table{
+    font-weight: bold;
 }
 .maxtitle{
-    color: #382526;
+    color: #ffffff;
     font-family: "Microsoft YaHei", "微软雅黑";
+    background-color: #382526;
+    padding-top:10px;
+    padding-bottom: 10px;
 }
 .minititle{
     background-color:#EAEAEA;
+    font-weight: bold;
+    font-family: "Microsoft Yahei", "微软雅黑";
+    font-size: 16px;
 }
 .sptitle{
     color: #382526 ;

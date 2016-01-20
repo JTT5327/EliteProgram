@@ -12,6 +12,9 @@
 .carousel-caption{
     padding-bottom: 230px;
 }
+.index-block{
+    padding-top:6%;
+}
 /*footer*/
 .indexFooter {
     width: 100%;
@@ -41,12 +44,10 @@ p{
 .business{
     overflow: auto;
     width: 100%;
-    padding-bottom: 23px;
     background-color: #EAEAEA;
 }
 /*contact*/
 .contact{
-    height: 528px;
     overflow: auto;
     width: 100%;
     background-color: #EAEAEA;
