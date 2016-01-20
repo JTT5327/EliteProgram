@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>译利特翻译网站</title>
-    <link rel="shortcut icon" href="assets/images/gt_favicon.png">
+    <link rel="shortcut icon" href="imgs/gt_favicon.png">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link  rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link  rel="stylesheet" href="css/bootstrap-theme.css" type="text/css">
     <link rel="stylesheet" href="css/common.css" type="text/css">
@@ -14,11 +15,20 @@
 <body>
     <div class="header">
         <nav class="navbar navbar-inverse navbar-fixed-top">
-            <a class="navbar-brand " href="index.html">
-                <img  src="imgs/logo_3.png" class="logo" alt="译利特翻译">
-                <span>译利特翻译</span>
-            </a>
-            <div class="navbar-collapse collapse items">
+            <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand " href="index.html">
+                    <img  src="imgs/logo_3.png" class="logo" alt="译利特翻译">
+                    <span>译利特翻译</span>
+                </a>
+                <!-- Button for smallest screens -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="navbar-collapse collapse pull-right">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="index.html">首页</a></li>
                     <li><a href="#about">关于译利特</a></li>
@@ -28,18 +38,18 @@
                     <li><a href="#contact">联系我们</a></li>
                 </ul>
             </div>
+            </div>
         </nav>
     </div>
     <div class="main">
         <!-- 图片轮番-->
-        <div id="carousel" class="carousel slide" data-ride="carousel">
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
             <!-- 圆圈指示符 -->
             <ol class="carousel-indicators">
                 <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="1"></li>
                 <li data-target="#carousel-example-generic" data-slide-to="2"></li>
             </ol>
-
             <!-- 图片容器 -->
             <div class="carousel-inner" role="listbox">
                 <div class="item active">
@@ -65,15 +75,14 @@
             </div>
 
             <!-- 左右控制按钮 -->
-            <a class=" carousel-control  left left-right" href="#carousel" data-slide="prev">
+            <a class=" carousel-control  left left-right" href="#carousel-example-generic" data-slide="prev">
                 &lsaquo;
             </a>
-            <a class=" carousel-control right left-right" href="#carousel" data-slide="next"> &rsaquo;
+            <a class=" carousel-control right left-right" href="#carousel-example-generic" data-slide="next"> &rsaquo;
             </a>
         </div>
         <!-- 公司简介-->
-        <div class="about" >
-            <div class="container" id="about">
+            <div class="container about index-block" id="about">
                 <div class="row">
                     <div class="col-md-12"><h2 class="title">公司简介</h2></div>
                 </div>
@@ -97,82 +106,130 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- 业务范围-->
-        <div class="business" id="business">
+        <!-- 服务项目-->
+        <div class="business index-block" id="business">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 title"><h2 class="title">服务项目</h2></div>
                 </div>
                 <div class="row">
-                    <div class="col-md-2">
-                        <div class="name">1</div>
+                    <div class="col-md-2 col-sm-4 highlight">
+                        <div class="h-caption"><h4><i class="fa fa-pencil fa-3"></i>笔译</h4></div>
+                        <div class="h-body text-center">
+                            <p>
+                                Writen Translation
+                            </p>
+                        </div>
                     </div>
-                    <div class="col-md-2">
-                        <div class="name">2</div>
+                    <div class="col-md-2 col-sm-4 highlight">
+                        <div class="h-caption"><h4><i class="fa fa-user fa-3"></i>口译</h4></div>
+                        <div class="h-body text-center">
+                            <p>
+                                Oral Translation
+                            </p>
+                        </div>
                     </div>
-                    <div class="col-md-2">
-                        <div class="name">3</div>
+                    <div class="col-md-2 col-sm-4 highlight">
+                        <div class="h-caption"><h4><i class="fa fa-heart fa-3"></i>审校服务</h4></div>
+                        <div class="h-body text-center">
+                            <p>
+                                Proofreading Service
+                            </p>
+                        </div>
                     </div>
-                    <div class="col-md-2">
-                        <div class="name">5</div>
+                    <div class="col-md-2 col-sm-4 highlight">
+                        <div class="h-caption">
+                            <h4>
+                                <i class="fa fa-edit fa-3"></i>证件翻译
+                            </h4>
+                        </div>
+                        <div class="h-body text-center">
+                            <p>
+                                Document Translation
+                            </p>
+                        </div>
                     </div>
-                    <div class="col-md-2">
-                        <div class="name">4</div>
+                    <div class="col-md-2 col-sm-4 highlight">
+                        <div class="h-caption">
+                            <h4>
+                                <i class="fa fa-smile-o fa-3"></i>网站本地化
+                            </h4>
+                        </div>
+                        <div class="h-body text-center">
+                            <p>
+                                Website Translation
+                            </p>
+                        </div>
                     </div>
-                    <div class="col-md-2">
-                        <div class="name">6</div>
+                    <div class="col-md-2 col-sm-4 highlight">
+                        <div class="h-caption">
+                            <h4>
+                                <i class="fa fa-desktop fa-3"></i>软件本地化
+                            </h4>
+                        </div>
+                        <div class="h-body text-center">
+                            <p>
+                                Software Translation
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
         <!-- 联系我们-->
-        <div class="contact" id="contact">
+        <div class="contact index-block" id="contact">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 title"><h2 class="title">联系我们</h2></div>
                 </div>
-                <div class="row">
-                    <div class="col-md-6 widget">
-                        <h3 class="widget-title">联系我们</h3>
-                        <div class="widget-body">
-                            <p>咨询热线：18080148448<br>
-                                手机号码：18080148448（24小时）<br>
-                                邮箱：<a href="mailto:#">elite-carrie@foxmail.com</a><br>
-                                <br>
-                                地址：成都市青羊区铜丝街7号1栋2层11号
-                            </p>
+                <fieldset class="fs-us">
+                    <div class="row">
+                        <div class="col-md-6 widget">
+                            <h3 class="widget-title">联系我们</h3>
+                            <div class="widget-body">
+                                <p>咨询热线：18080148448</p>
+                                <p>手机号码：18080148448（24小时）</p>
+                                <p>邮箱：<a href="mailto:#">elite-carrie@foxmail.com</a><br>
+                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                        <a href="mailto:#">2509524045@qq.com</a>
+                                </p>
+                                <p>地址：成都市青羊区铜丝街7号1栋2层11号</p>
+                            </div>
                         </div>
-                    </div>
 
-                    <div class="col-md-6 widget">
-                        <h3 class="widget-title">联系方式</h3>
-                        <div class="widget-body">
-                            <p class="follow-me-icons">
-                                <!-- <a href=""><i class="fa fa-twitter fa-2"></i></a>
-                                <a href=""><i class="fa fa-dribbble fa-2"></i></a> -->
-                                <a href=""><i class="fa fa-github fa-2"></i></a>
-                                <!-- <a href=""><i class="fa fa-facebook fa-2"></i></a> -->
-                                <a href=""><i class="fa fa-qq fa-2"></i></a>
-                            </p>
+                        <div class="col-md-6 widget">
+                            <h3 class="widget-title">联系方式</h3>
+                            <div class="widget-body">
+                                <p class="follow-me-icons">
+                                    <span style="color: red">QQ在线咨询：</span><br>
+                                    <a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=2509524045&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:2509524045:53" alt="QQ在线咨询" title="点击这里给我发消息"/></a>
+
+                                    <!-- <a href=""><i class="fa fa-twitter fa-2"></i></a>
+                                    <a href=""><i class="fa fa-dribbble fa-2"></i></a> -->
+                                   <!-- <a href=""><i class="fa fa-github fa-3"></i></a>
+                                    &lt;!&ndash; <a href=""><i class="fa fa-facebook fa-2"></i></a> &ndash;&gt;
+                                    <a href=""><i class="fa fa-qq fa-3"></i></a>-->
+                                </p>
+                            </div>
                         </div>
-                    </div>
 
-                </div>
+                    </div>
+                </fieldset>
             </div>
         </div>
     </div>
-    <div class="footer">
+    <div class="indexFooter">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 widget">
                     <div class="widget-body">
                         <p class="simplenav">
-                            <a href="#">Home</a> |
-                            <a href="about.html">About</a> |
-                            <a href="sidebar-right.html">Sidebar</a> |
-                            <a href="contact.html">Contact</a> |
-                            <b><a href="signup.html">Sign up</a></b>
+                            <a href="index.html">Home</a> |
+                            <a href="index.html#about">About</a> |
+                            <a href="index.html#business">ServicePro</a> |
+                            <a href="translate.html">Translate</a> |
+                            <a href="charge.html">Charge</a> |
+                            <a href="index.html#contact">Contact</a>
                         </p>
                     </div>
                 </div>

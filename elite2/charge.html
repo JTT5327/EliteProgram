@@ -3,24 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <title>译利特翻译网站</title>
-    <link rel="shortcut icon" href="assets/images/gt_favicon.png">
+    <link rel="shortcut icon" href="imgs/gt_favicon.png">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link  rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
     <link  rel="stylesheet" href="css/bootstrap-theme.css" type="text/css">
     <link rel="stylesheet" href="css/common.css" type="text/css">
-    <link rel="stylesheet" href="css/index.css" type="text/css">
-    <link rel="stylesheet" href="css/translate.css" type="text/css">
     <link rel="stylesheet" href="css/charge.css" type="text/css">
     <script src="js/jquery-2.1.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+
 </head>
 <body>
 <div class="header">
     <nav class="navbar navbar-inverse navbar-fixed-top">
-        <a class="navbar-brand " href="index.html">
-            <img  src="imgs/logo_3.png" class="logo" alt="译利特翻译">
-            <span>译利特翻译</span>
-        </a>
-        <div class="navbar-collapse collapse items">
+        <div class="container">
+            <div class="navbar-header">
+                <a class="navbar-brand " href="index.html">
+                    <img  src="imgs/logo_3.png" class="logo" alt="译利特翻译">
+                    <span>译利特翻译</span>
+                </a>
+                <!-- Button for smallest screens -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+        <div class="navbar-collapse collapse pull-right">
             <ul class="nav navbar-nav">
                 <li><a href="index.html">首页</a></li>
                 <li><a href="index.html#about">关于译利特</a></li>
@@ -30,73 +39,76 @@
                 <li><a href="index.html#contact">联系我们</a></li>
             </ul>
         </div>
+        </div>
     </nav>
 </div>
 <div class="container">
-    <div class="row link"><a href="index.html">首页</a>／<a href="charge.html">收费标准</a></div>
+    <ol class="breadcrumb navOL">
+        <li><a href="index.html">首页</a></li>
+        <li class="active">收费标准</li>
+    </ol>
     <div class="row content">
         <div class="col-md-3">
             <div class="list">
-                <a href="charge.html#display1" class="charge">服务须知</a>
-                <a href="charge.html#display2" class="charge">笔译</a>
-                <a href="charge.html#display3" class="charge">口译</a>
+                <a href="#display1" class="charge"><i class="fa fa-send fa-2"></i>服务须知</a>
+                <a href="#display2" class="charge"><i class="fa fa-pencil fa-2"></i>笔译</a>
+                <a href="#display3" class="charge"><i class="fa fa-user fa-2"></i>口译</a>
+                <a href="#display4" class="charge"><i class="fa fa-book fa-2"></i>发票</a>
             </div>
         </div>
         <div class="col-md-9 display">
             <div id="display1">
-                <h1>服务须知</h1>
-                <hr>
+                <h1 class="maxtitle"><i class="fa fa-send"></i>服务须知</h1>
                 <h3>服务流程</h3>
-                <p class="text-muted">1、接收客户发来的翻译原件</p>
-                <p class="text-muted">2、在翻译项目启动之前，由业务员跟客户确认翻译源语种和目标语种、翻译数量、翻译价格、资料类型及特点、译稿用途、排版要求、交稿时间以及交稿方式等详细要求。</p>
-                <p class="text-muted">3、在翻译项目启动之后，客户可从接洽业务员处获得翻译进度等相关信息。</p>
-                <p class="text-muted">4、启动项目——交至项目分析部，进行项目分析和分析结果处理。</p>
-                <p class="text-muted">5、根据翻译和审校的职能不同进行分工合作，安排翻译员和审校员。</p>
-                <p class="text-muted">6、项目经理术语制作，统一词汇。</p>
-                <p class="text-muted">7、译稿初审，确保翻译译稿的完整性。</p>
-                <p class="text-muted">8、译稿复审，确保专业翻译质量。</p>
-                <p class="text-muted">9、根据客户的排版要求，排版员排版定稿。</p>
-                <p class="text-muted">10、在交稿时间之前，以客户要求的交稿方式按时交稿，同时，告知客户售后联系人和联系方式。</p>
-                <p class="text-muted">11、后期反馈处理，由售后联系人与客户沟通详细且明确完
+                <p>1、接收客户发来的翻译原件</p>
+                <p>2、在翻译项目启动之前，由业务员跟客户确认翻译源语种和目标语种、翻译数量、翻译价格、资料类型及特点、译稿用途、排版要求、交稿时间以及交稿方式等详细要求。</p>
+                <p>3、在翻译项目启动之后，客户可从接洽业务员处获得翻译进度等相关信息。</p>
+                <p>4、启动项目——交至项目分析部，进行项目分析和分析结果处理。</p>
+                <p>5、根据翻译和审校的职能不同进行分工合作，安排翻译员和审校员。</p>
+                <p>6、项目经理术语制作，统一词汇。</p>
+                <p>7、译稿初审，确保翻译译稿的完整性。</p>
+                <p>8、译稿复审，确保专业翻译质量。</p>
+                <p>9、根据客户的排版要求，排版员排版定稿。</p>
+                <p>10、在交稿时间之前，以客户要求的交稿方式按时交稿，同时，告知客户售后联系人和联系方式。</p>
+                <p>11、后期反馈处理，由售后联系人与客户沟通详细且明确完
             </div>
-            <div id="display2">
-                <h1>笔译</h1>
-                <hr>
+            <div id="display2" class="charge-block">
+                <h1 class="maxtitle"><i class="fa fa-pencil"></i>笔译</h1>
                 <h3>翻译参考价格表</h3>
-                <p class="text-muted">优质优价是我们的原则，翻译工作本身具有很强的专业性，同时需要付出很多的艰辛，我们将为您提供最佳的翻译方案，最大限度地降低您的成本。</p>
-                <p class="text-muted">以下为报价参考表，具体翻译价格将根据客户文件难度级别而定论。</p>
-                <p class="text-muted subtitle">※笔译参考报价</p>
-                <p class="text-muted">1、中译外，外译中项目，均以中文字为计算标准</p>
-                <p class="text-muted">数量统计以word字数统计工具中“字符数（不计空格）”为准（图片等不可编辑字数不能直接用字数统计工具统计，录入转化为可编辑文字之后，另行统计）。
+                <p>优质优价是我们的原则，翻译工作本身具有很强的专业性，同时需要付出很多的艰辛，我们将为您提供最佳的翻译方案，最大限度地降低您的成本。</p>
+                <p>以下为报价参考表，具体翻译价格将根据客户文件难度级别而定论。</p>
+                <p class="minititle">※笔译参考报价</p>
+                <p>1、中译外，外译中项目，均以中文字为计算标准</p>
+                <p>数量统计以word字数统计工具中“字符数（不计空格）”为准（图片等不可编辑字数不能直接用字数统计工具统计，录入转化为可编辑文字之后，另行统计）。
                     不足500字符，以500字符计费；
                     500-1000字符，以1000字符计费；
                     1000字符以上，以千字符计费。
-                    合作价格见<a href="javascript:void(0);" target="_blank">“中外互译价格表”</a>。
+                    合作价格见<a href="c-to-e.html"  target="_blank" title="请点击“中外互译价格表”查看" class="charge-price-table" >“中外互译价格表”</a>。
                 </p>
-                <p class="text-muted">2、英译外，外译英项目，均以英文词为计算标准</p>
-                <p class="text-muted">数量统计以word字数统计工具中“字数”为准（图片等不可编辑字数不能直接用字数统计工具统计，录入转化为可编辑文字之后，另行统计）。
+                <p>2、英译外，外译英项目，均以英文词为计算标准</p>
+                <p>数量统计以word字数统计工具中“字数”为准（图片等不可编辑字数不能直接用字数统计工具统计，录入转化为可编辑文字之后，另行统计）。
                     不足500词，以500词计费；
                     500-1000词，以1000词计费；
                     1000词以上，以千词计费。
-                    合作价格见<a href="javascript:void(0);" target="_blank">“英外互译价格表”</a>。
+                    合作价格见<a href="e-to-f.html" target="_blank" title="请点击“英外互译价格表”查看" class="charge-price-table">“英外互译价格表”</a>。
                 </p>
-                <p class="text-muted">3、外译外项目，均以源语种单词数为计算标准</p>
-                <p class="text-muted">数量统计以word字数统计工具中“字符数（不计空格）”为准（图片等不可编辑字数不能直接用字数统计工具统计，录入转化为可编辑文字之后，另行统计）。
+                <p >3、外译外项目，均以源语种单词数为计算标准</p>
+                <p >数量统计以word字数统计工具中“字符数（不计空格）”为准（图片等不可编辑字数不能直接用字数统计工具统计，录入转化为可编辑文字之后，另行统计）。
                     不足500字符，以500字符计费；
                     500-1000字符，以1000字符计费；
                     1000字符以上，以千字符计费。
                     合作价格需与业务员沟通达成。
                 </p>
-                <p class="text-muted">※说明：</p>
-                <p class="text-muted">1、稿件格式复杂、制图、制表、排版等酌情收取费用；</p>
-                <p class="text-muted">2、五万字以上的稿件价格优惠，详情具体商议；</p>
-                <p class="text-muted">3、对于长期客户，可实行更优惠的价格政策。<br><br></p>
-                <p class="text-muted">普通类：包括证件认证、商业信函、公司简介、广告宣传、邀请函、商务报告、科普资料等非专业性文档；<br><br></p>
-                <p class="text-muted">专业类：包括产品说明、用户手册、技术文档、学术论文、医学资料、安装指南等专业技术文档；<br><br></p>
-                <p class="text-muted">特级类：包括合同、标书、专利文献、司法/仲裁文件、公证资料、政府公文、公司年报等特级专业文档。</p>
+                <p class="minititle">※说明：</p>
+                <p>1、稿件格式复杂、制图、制表、排版等酌情收取费用；</p>
+                <p>2、五万字以上的稿件价格优惠，详情具体商议；</p>
+                <p>3、对于长期客户，可实行更优惠的价格政策。<br><br></p>
+                <p class="sptitle">普通类：包括证件认证、商业信函、公司简介、广告宣传、邀请函、商务报告、科普资料等非专业性文档；<br><br></p>
+                <p class="sptitle">专业类：包括产品说明、用户手册、技术文档、学术论文、医学资料、安装指南等专业技术文档；<br><br></p>
+                <p class="sptitle">特级类：包括合同、标书、专利文献、司法/仲裁文件、公证资料、政府公文、公司年报等特级专业文档。</p>
             </div>
-            <div id="display3"> <h1>口译</h1>
-                <hr>
+            <div id="display3" class="charge-block">
+                <h1 class="maxtitle"><i class="fa fa-user"></i>口译</h1>
                 <h3>口译报价一览表</h3>
                 <table class="table table-bordered table-hover">
                     <tr>
@@ -121,22 +133,30 @@
                         <td>远程同传</td><td>总价=口译费+同传设备使用费+通讯设备使用费+其他相关费用</td>
                     </tr>
                 </table>
-                    <p class="text-muted">具体合作价格需根据实际情况与业务员沟通达成。</p>
+                    <p class="note">(具体合作价格需根据实际情况与业务员沟通达成。)</p>
+            </div>
+            <div id="display4" class="charge-block">
+                <h1 class="maxtitle"><i class="fa fa-book"></i>发票</h1>
+                <h3>为客户开发票、取发票</h3>
+                <p>1、客户可直接向业务员提供发票抬头、收发票人、收发票地址、联系电话号码等相关信息；</p>
+                <p>2、单笔业务款超过2000元，可免费开出发票；</p>
+                <p>3、单笔业务款不足2000元，开出发票，客户需另出快递费；或者累计多笔业务款，一并开具发票。</p>
             </div>
         </div>
     </div>
 </div>
-<div class="footer">
+<footer class="footer">
     <div class="container">
         <div class="row">
             <div class="col-md-6 widget">
                 <div class="widget-body">
                     <p class="simplenav">
-                        <a href="#">Home</a> |
-                        <a href="about.html">About</a> |
-                        <a href="sidebar-right.html">Sidebar</a> |
-                        <a href="contact.html">Contact</a> |
-                        <b><a href="signup.html">Sign up</a></b>
+                        <a href="index.html">Home</a> |
+                        <a href="index.html#about">About</a> |
+                        <a href="index.html#business">ServicePro</a> |
+                        <a href="translate.html">Translate</a> |
+                        <a href="charge.html">Charge</a> |
+                        <a href="index.html#contact">Contact</a>
                     </p>
                 </div>
             </div>
@@ -148,9 +168,8 @@
                     </p>
                 </div>
             </div>
-
         </div> <!-- /row of widgets -->
     </div>
-</div>
+</footer>
 </body>
 </html>
