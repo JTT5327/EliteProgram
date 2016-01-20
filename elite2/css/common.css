@@ -17,7 +17,9 @@
 .items{
     margin-left: 700px;
 }
-
+.navbar-brand span{
+    font-family: "Microsoft YaHei", "微软雅黑";
+}
 .title {
     text-align: center;
     font-weight: 300;

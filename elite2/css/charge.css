@@ -7,6 +7,18 @@
 .navOL{
     position: fixed;
 }
+.list h3{
+    width: 250px;
+    height: 50px;
+    padding-left:53px;
+    line-height: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: "Microsoft YaHei", "微软雅黑";
+    border: 1px solid #EAEAEA;
+    color: #ffffff;
+    background-color: rgba(56,37,38,0.8);
+}
 .charge{
     display: block;
     height: 50px;
@@ -15,7 +27,7 @@
     text-align: center;
     line-height: 50px;
     color: #382526;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: bolder;
     width: 250px;
     text-decoration: none;
