@@ -6,7 +6,10 @@
     font-family: "Microsoft YaHei", "微软雅黑";
 }
 .subtitle{
+    height: 45px;
+    line-height: 45px;
     color: #ffffff;
     font-family: "Microsoft YaHei", "微软雅黑";
     background-color: #382526;
+    padding-left: 5px;
 }
