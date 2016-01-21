@@ -2,7 +2,9 @@
 .nav li{
     /*color: rgba(255,255,255,1);*//*覆盖Bootstrap-theme.css的样式*/
     font-family: "Microsoft YaHei", "微软雅黑";
+    font-size: 15px;
 }
+
 .logo{
     width: 105px;
     height: 50px;
