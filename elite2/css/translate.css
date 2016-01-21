@@ -1,4 +1,12 @@
 
+.translate-title{
+    font-weight: 300;
+    margin-top: 30px;
+    font-size: 45px;
+    font-family: "Microsoft YaHei", "微软雅黑";
+}
 .subtitle{
-    color: orange;
+    color: #ffffff;
+    font-family: "Microsoft YaHei", "微软雅黑";
+    background-color: #382526;
 }
