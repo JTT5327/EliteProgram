@@ -1,16 +1,42 @@
+.navbar-brand img{
+    margin-top: 0;
+}
+.navbar-inverse{
+    background-color: #ffffff;
+    min-height: 80px;
+    padding-top: 10px;
+    border-bottom: 1px solid #EAEAEA;
+}
+.navbar-inverse .navbar-brand{
+    color: #000000;
+}
+.navbar-inverse .navbar-brand :hover{
+    color: #000000;
+}
 .carousel-inner{
-    height: 468px;
+    height: 530px;
+}
+.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > .open ul > a {
+    color: #000000;
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+    color: #ac2925;
+}
+.navbar-collapse {
+    padding-top: 10px;
 }
 .bg{
-    height: 528px;
+    height: auto;
     width: 100%;
 }
+
 .left-right{
-    line-height: 528px;
+    line-height: 582px;
     font-size: 80px;
 }
 .carousel-caption{
-    padding-bottom: 230px;
+    padding-bottom:180px;
+    color:rgb(146,146,146);
 }
 .index-block{
     padding-top:6%;
