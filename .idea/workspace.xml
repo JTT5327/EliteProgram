@@ -2,21 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="be06251a-f862-4d40-ad83-4b431838963e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elite2/imgs/banner_11.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elite2/imgs/banner_22.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elite2/imgs/banner_33.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elite2/imgs/ddd.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elite2/imgs/ddd2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elite2/css/enrty.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/elite2/entry.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elite2/css/charge.css" afterPath="$PROJECT_DIR$/elite2/css/charge.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elite2/charge.html" afterPath="$PROJECT_DIR$/elite2/charge.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elite2/css/common.css" afterPath="$PROJECT_DIR$/elite2/css/common.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elite2/css/enrty.css" afterPath="$PROJECT_DIR$/elite2/css/enrty.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elite2/css/index.css" afterPath="$PROJECT_DIR$/elite2/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elite2/index.html" afterPath="$PROJECT_DIR$/elite2/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elite2/css/translate.css" afterPath="$PROJECT_DIR$/elite2/css/translate.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/elite2/translate.html" afterPath="$PROJECT_DIR$/elite2/translate.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="EliteProgram.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -41,27 +31,27 @@
         <entry file="file://$PROJECT_DIR$/elite2/css/charge.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="23" selection-end-column="1" />
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="enrty.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="enrty.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/elite2/css/enrty.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="87" column="26" selection-start-line="87" selection-start-column="26" selection-end-line="87" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.31578946">
+              <caret line="83" column="21" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="entry.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="entry.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/elite2/entry.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.58764607">
-              <caret line="99" column="33" selection-start-line="99" selection-start-column="33" selection-end-line="99" selection-end-column="33" />
+            <state vertical-scroll-proportion="-18.071428">
+              <caret line="39" column="21" selection-start-line="31" selection-start-column="16" selection-end-line="39" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -81,7 +71,27 @@
         <entry file="file://$PROJECT_DIR$/elite2/css/index.css">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="46" column="1" selection-start-line="38" selection-start-column="0" selection-end-line="46" selection-end-column="1" />
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="14" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="translate.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/elite2/css/translate.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/elite2/css/common.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -90,8 +100,8 @@
       <file leaf-file-name="charge.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/elite2/charge.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="153" column="6" selection-start-line="45" selection-start-column="0" selection-end-line="153" selection-end-column="6" />
+            <state vertical-scroll-proportion="-18.071428">
+              <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
               <folding />
             </state>
           </provider>
@@ -100,7 +110,7 @@
       <file leaf-file-name="translate.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/elite2/translate.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-18.071428">
               <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
               <folding />
             </state>
@@ -124,15 +134,15 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/elite2/e-to-f.html" />
-        <option value="$PROJECT_DIR$/elite2/css/charge.css" />
-        <option value="$PROJECT_DIR$/elite2/css/common.css" />
-        <option value="$PROJECT_DIR$/elite2/css/translate.css" />
-        <option value="$PROJECT_DIR$/elite2/css/index.css" />
         <option value="$PROJECT_DIR$/elite2/index.html" />
         <option value="$PROJECT_DIR$/elite2/charge.html" />
         <option value="$PROJECT_DIR$/elite2/translate.html" />
-        <option value="$PROJECT_DIR$/elite2/css/enrty.css" />
         <option value="$PROJECT_DIR$/elite2/entry.html" />
+        <option value="$PROJECT_DIR$/elite2/css/index.css" />
+        <option value="$PROJECT_DIR$/elite2/css/translate.css" />
+        <option value="$PROJECT_DIR$/elite2/css/common.css" />
+        <option value="$PROJECT_DIR$/elite2/css/charge.css" />
+        <option value="$PROJECT_DIR$/elite2/css/enrty.css" />
       </list>
     </option>
   </component>
@@ -448,6 +458,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -523,13 +534,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elite2/css/translate.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/elite2/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.6140351">
@@ -542,22 +546,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elite2/translate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elite2/charge.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="153" column="6" selection-start-line="45" selection-start-column="0" selection-end-line="153" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/elite2/css/font-awesome.min.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -566,10 +554,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/elite2/translate.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.071428">
+          <caret line="39" column="17" selection-start-line="39" selection-start-column="17" selection-end-line="39" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elite2/charge.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.071428">
+          <caret line="39" column="45" selection-start-line="39" selection-start-column="45" selection-end-line="39" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/elite2/css/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="1" selection-start-line="38" selection-start-column="0" selection-end-line="46" selection-end-column="1" />
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elite2/css/translate.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="1" selection-start-line="29" selection-start-column="1" selection-end-line="29" selection-end-column="1" />
           <folding />
         </state>
       </provider>
@@ -577,7 +589,15 @@
     <entry file="file://$PROJECT_DIR$/elite2/css/common.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="37" selection-start-line="14" selection-start-column="37" selection-end-line="14" selection-end-column="37" />
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/elite2/entry.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.071428">
+          <caret line="39" column="21" selection-start-line="31" selection-start-column="16" selection-end-line="39" selection-end-column="21" />
           <folding />
         </state>
       </provider>
@@ -585,23 +605,15 @@
     <entry file="file://$PROJECT_DIR$/elite2/css/charge.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="23" selection-end-column="1" />
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/elite2/css/enrty.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="87" column="26" selection-start-line="87" selection-start-column="26" selection-end-line="87" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/elite2/entry.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58764607">
-          <caret line="99" column="33" selection-start-line="99" selection-start-column="33" selection-end-line="99" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.31578946">
+          <caret line="83" column="21" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
           <folding />
         </state>
       </provider>
