@@ -1,8 +1,8 @@
 
 .translate-title{
     font-weight: 300;
-    margin-top: 30px;
-    font-size: 45px;
+    /*margin-top: 30px;*/
+    font-size: 30px;
     font-family: "Microsoft YaHei", "微软雅黑";
 }
 .subtitle{
@@ -12,4 +12,25 @@
     font-family: "Microsoft YaHei", "微软雅黑";
     background-color: #382526;
     padding-left: 5px;
+}
+.navbar-brand img{
+    margin-top: 0;
+}
+.navbar-inverse{
+    background-color: #ffffff;
+    min-height: 80px;
+    padding-top: 10px;
+    border-bottom: 1px solid #EAEAEA;
+}
+.carousel-inner{
+    height: 530px;
+}
+.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > .open ul > a {
+    color: #000000;
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+    color: #ac2925;
+}
+.navbar-collapse {
+    padding-top: 10px;
 }

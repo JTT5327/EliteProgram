@@ -5,13 +5,38 @@
     font-size: 15px;
 }
 
+.navbar-brand img{
+    margin-top: 0;
+}
+.navbar-inverse{
+    background-color: #ffffff;
+    min-height: 80px;
+    padding-top: 10px;
+    border-bottom: 1px solid #EAEAEA;
+}
+.carousel-inner{
+    height: 530px;
+}
+.navbar-inverse .navbar-nav > li > a, .navbar-inverse .navbar-nav > .open ul > a {
+    color: #000000;
+}
+.navbar-inverse .navbar-nav > li > a:hover{
+    color: #ac2925;
+}
+.navbar-collapse {
+    padding-top: 10px;
+}
 .logo{
     width: 105px;
-    height: 50px;
+    /*height: 50px;*/
     margin-left: 50px;
+    margin-bottom: 5px;
+}
+.main{
+    margin-top: 80px;
 }
 .header{
-    margin-top: 100px;
+    /*margin-top: 100px;*/
 }
 .navbar-inverse{
     background-color: rgba(0,0,0,1);
@@ -30,7 +55,7 @@
     font-family: "Microsoft YaHei", "微软雅黑";
 }
 .breadcrumb{
-    margin: 30px 0 0px 0;
+    /*margin: 30px 0 0px 0;*/
     pading:0;
     background: none;
 }
